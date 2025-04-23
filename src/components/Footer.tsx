@@ -1,4 +1,3 @@
-
 import { Github } from "lucide-react";
 
 const Footer = () => {
@@ -9,9 +8,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <span className="font-bold text-lg">Dev<span className="text-primary">Portfolio</span></span>
+            <span className="font-bold text-lg">Kaarina's Portfolio</span>
             <p className="text-sm text-muted-foreground mt-1">
-              © {currentYear} Your Name. All rights reserved.
+              © 2025 Kaarina Suominen. All rights reserved.
             </p>
           </div>
           

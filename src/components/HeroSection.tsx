@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin } from "lucide-react";
 
@@ -8,13 +7,13 @@ const HeroSection = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
               Digital Products with Impact
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl">
+            <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-2xl">
               Hi I'm Kaarina, a Digital Product Manager, Technology Consultant and a Social Scientist with roots in Finland and Vietnam. You could also describe me as a Tech-Human Bridgebuilder with expertise spanning across socio-technical issues, blending technology and digital solutions with societal needs.
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl">
+            <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-2xl">
               With a background in Global Development Studies and Full-Stack Software Development, I navigate complexities with analytical prowess, anthropological curiosity and cultural sensitivity. Let's bridge the gap between technology and humanity - together.
             </p>
             <div className="flex gap-4">

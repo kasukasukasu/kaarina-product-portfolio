@@ -11,39 +11,39 @@ interface SkillCategory {
 
 const skillCategories: SkillCategory[] = [
   {
-    title: "Product Strategy",
+    title: "Development Policy",
     icon: <Projector className="h-10 w-10 text-primary" />,
     skills: [
-      "Product Vision & Strategy", "Market Research", "Competitive Analysis",
-      "Product Roadmapping", "Business Case Development", "Go-to-Market Strategy",
-      "Product Lifecycle Management", "Revenue Modeling"
+      "Policy Analysis", "International Development", "Sustainable Development",
+      "Social Impact Assessment", "Policy Implementation", "Stakeholder Engagement",
+      "Development Cooperation", "Global Governance"
     ]
   },
   {
-    title: "User-Centered Design",
-    icon: <Users className="h-10 w-10 text-primary" />,
-    skills: [
-      "User Research", "Customer Journey Mapping", "Usability Testing",
-      "Wireframing", "Prototyping", "User Stories", "UX Design",
-      "Information Architecture"
-    ]
-  },
-  {
-    title: "Technical Leadership",
-    icon: <Activity className="h-10 w-10 text-primary" />,
-    skills: [
-      "Agile/Scrum", "Sprint Planning", "Feature Prioritization",
-      "Technical Requirements", "Data Analytics", "A/B Testing",
-      "Product Analytics", "Release Management"
-    ]
-  },
-  {
-    title: "Research & Analytics",
+    title: "Research & Analysis",
     icon: <Search className="h-10 w-10 text-primary" />,
     skills: [
-      "Quantitative Analysis", "User Behavior Analysis", "Market Analysis",
-      "Data-Driven Decisions", "KPI Definition", "Cohort Analysis",
-      "Feature Impact Analysis", "Customer Feedback Analysis"
+      "Qualitative Research", "Policy Research", "Impact Evaluation",
+      "Development Studies", "Anthropological Methods", "Cross-cultural Analysis",
+      "Social Science Research", "Field Research"
+    ]
+  },
+  {
+    title: "Technical Solutions",
+    icon: <Activity className="h-10 w-10 text-primary" />,
+    skills: [
+      "Full-Stack Development", "Digital Solutions", "Technology Integration",
+      "Human-Centered Design", "Socio-technical Systems", "Digital Transformation",
+      "Tech for Development", "Inclusive Design"
+    ]
+  },
+  {
+    title: "Social Innovation",
+    icon: <Users className="h-10 w-10 text-primary" />,
+    skills: [
+      "Social Impact", "Community Engagement", "Cultural Sensitivity",
+      "Capacity Building", "Human Rights", "Social Justice",
+      "Participatory Methods", "Sustainable Solutions"
     ]
   }
 ];

@@ -41,12 +41,6 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
               </Badge>
             ))}
           </div>
-          <Button asChild variant="outline" className="group">
-            <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
-              View Case Study
-              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </a>
-          </Button>
         </div>
       </div>
     </Card>
