@@ -1,8 +1,8 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Github, Link } from "lucide-react";
+import { Card } from "@/components/ui/card";
+import { ArrowRight } from "lucide-react";
 
 export interface Project {
   id: number;
@@ -20,43 +20,38 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
-    <Card className="overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 h-full flex flex-col">
-      <div className="aspect-video w-full overflow-hidden">
-        <img 
-          src={project.image} 
-          alt={project.title} 
-          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105" 
-        />
-      </div>
-      
-      <CardHeader>
-        <CardTitle>{project.title}</CardTitle>
-        <CardDescription>{project.description}</CardDescription>
-      </CardHeader>
-      
-      <CardContent className="flex-grow">
-        <div className="flex flex-wrap gap-2 mt-2">
-          {project.techStack.map((tech, index) => (
-            <Badge key={index} variant="secondary">{tech}</Badge>
-          ))}
+    <Card className="group overflow-hidden border-none shadow-none p-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="order-2 md:order-1">
+          <h3 className="text-2xl font-bold mb-4">{project.title}</h3>
+          <p className="text-muted-foreground mb-6">
+            {project.description}
+          </p>
+          <div className="flex flex-wrap gap-2 mb-6">
+            {project.techStack.map((tech, index) => (
+              <Badge key={index} variant="secondary" className="px-3 py-1">
+                {tech}
+              </Badge>
+            ))}
+          </div>
+          <Button asChild variant="outline" className="group">
+            <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
+              View Case Study
+              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </a>
+          </Button>
         </div>
-      </CardContent>
-      
-      <CardFooter className="flex justify-between gap-4">
-        <Button asChild variant="outline" size="sm" className="flex items-center gap-2 flex-1">
-          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-            <Github className="w-4 h-4" />
-            <span>Code</span>
-          </a>
-        </Button>
         
-        <Button asChild size="sm" className="flex items-center gap-2 flex-1">
-          <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
-            <Link className="w-4 h-4" />
-            <span>Live Demo</span>
-          </a>
-        </Button>
-      </CardFooter>
+        <div className="order-1 md:order-2">
+          <div className="overflow-hidden rounded-lg">
+            <img 
+              src={project.image} 
+              alt={project.title} 
+              className="w-full h-[300px] object-cover transition-transform duration-300 group-hover:scale-105" 
+            />
+          </div>
+        </div>
+      </div>
     </Card>
   );
 };

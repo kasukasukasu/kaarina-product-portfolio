@@ -20,51 +20,49 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <span className="font-bold text-xl">Dev<span className="text-primary">Portfolio</span></span>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between h-20">
+          <span className="text-xl font-bold">KS</span>
+
+          <nav className="hidden md:flex items-center space-x-8">
+            {["projects", "skills", "contact"].map((section) => (
+              <button
+                key={section}
+                onClick={() => scrollToSection(section)}
+                className="text-base text-foreground/80 hover:text-primary transition-colors capitalize"
+              >
+                {section}
+              </button>
+            ))}
+          </nav>
+
+          <Button 
+            variant="ghost" 
+            size="icon" 
+            className="md:hidden"
+            onClick={toggleMenu}
+          >
+            {isMenuOpen ? <X /> : <Menu />}
+          </Button>
         </div>
-
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-6">
-          {["hero", "projects", "skills", "contact"].map((section) => (
-            <button
-              key={section}
-              onClick={() => scrollToSection(section)}
-              className="text-foreground/80 hover:text-primary transition-colors capitalize"
-            >
-              {section === "hero" ? "Home" : section}
-            </button>
-          ))}
-        </nav>
-
-        {/* Mobile Menu Button */}
-        <Button 
-          variant="ghost" 
-          size="icon" 
-          className="md:hidden"
-          onClick={toggleMenu}
-        >
-          {isMenuOpen ? <X /> : <Menu />}
-        </Button>
       </div>
 
       {/* Mobile Menu */}
       <div 
         className={cn(
-          "fixed inset-0 top-[65px] bg-background z-40 md:hidden transition-transform duration-300 ease-in-out",
+          "fixed inset-0 top-[80px] bg-background z-40 md:hidden transition-transform duration-300 ease-in-out",
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         )}
       >
         <nav className="flex flex-col items-center justify-center h-full space-y-8">
-          {["hero", "projects", "skills", "contact"].map((section) => (
+          {["projects", "skills", "contact"].map((section) => (
             <button
               key={section}
               onClick={() => scrollToSection(section)}
               className="text-xl font-medium text-foreground/80 hover:text-primary transition-colors capitalize"
             >
-              {section === "hero" ? "Home" : section}
+              {section}
             </button>
           ))}
         </nav>

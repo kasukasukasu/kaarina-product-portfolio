@@ -1,56 +1,29 @@
 
 import { Button } from "@/components/ui/button";
-import { Github } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
-  const scrollToContact = () => {
-    const element = document.getElementById('contact');
+  const scrollToProjects = () => {
+    const element = document.getElementById('projects');
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
   return (
-    <section id="hero" className="min-h-screen pt-16 flex items-center">
-      <div className="container mx-auto px-4 py-12">
-        <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8">
-          <div className="w-full md:w-1/2 space-y-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-              <span className="block">Hi, I'm</span>
-              <span className="text-primary block mt-2">Your Name</span>
-              <span className="block mt-2">Web Developer</span>
-            </h1>
-            
-            <p className="text-lg md:text-xl text-muted-foreground">
-              I build exceptional and accessible digital experiences for the web.
-            </p>
-            
-            <div className="flex flex-wrap gap-4 pt-4">
-              <Button onClick={scrollToContact} size="lg">
-                Contact Me
-              </Button>
-              
-              <Button variant="outline" size="lg" asChild>
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                  <Github size={20} />
-                  <span>GitHub</span>
-                </a>
-              </Button>
-            </div>
-          </div>
-          
-          <div className="w-full md:w-1/2 flex justify-center">
-            <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20">
-                <img 
-                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80" 
-                  alt="Developer" 
-                  className="w-full h-full object-cover" 
-                />
-              </div>
-              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 to-transparent"></div>
-            </div>
-          </div>
+    <section id="hero" className="min-h-screen flex items-center bg-background">
+      <div className="container mx-auto px-4">
+        <div className="max-w-3xl">
+          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
+            Product Manager
+          </h1>
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
+            I help teams build exceptional products that solve real problems and deliver measurable impact.
+          </p>
+          <Button onClick={scrollToProjects} size="lg" className="group">
+            View My Work
+            <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </Button>
         </div>
       </div>
     </section>
