@@ -34,10 +34,7 @@ const Navbar = () => {
                 {section}
               </button>
             ))}
-            <Button variant="ghost" size="icon" onClick={() => window.open('https://github.com', '_blank')}>
-              <Github className="h-5 w-5" />
-            </Button>
-            <Button onClick={() => scrollToSection('contact')} className="gap-2">
+            <Button onClick={() => scrollToSection('contact')} className="gap-2 text-black">
               <Mail className="h-4 w-4" />
               Contact
             </Button>

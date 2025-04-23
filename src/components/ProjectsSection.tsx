@@ -6,7 +6,7 @@ const projects: Project[] = [
     id: 1,
     title: "Full-Stack Software Development",
     description: "Developing, testing and maintaining software products for a wide range of clients from retail to banking and insurance sectors.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f61df653cdcc61b90a097e_logo%20ACN-p-500.png",
     demoUrl: "https://www.accenture.com/fi-en/about/company/finland",
     githubUrl: "",
     techStack: ["Accenture", "Software Development"]
@@ -15,7 +15,7 @@ const projects: Project[] = [
     id: 2,
     title: "Digital Product Management",
     description: "End-to-end Product Management of an Project, Finance, Recruitment and Monitoring Platform for International Development Projects.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f759aab0e037bb331e5b0d_NIRAS-p-800.png",
     demoUrl: "https://www.niras.com/sectors/development-consulting/",
     githubUrl: "",
     techStack: ["NIRAS", "Product Management", "Product Strategy"]
@@ -24,7 +24,7 @@ const projects: Project[] = [
     id: 3,
     title: "Digital Sales x Solutions Delivery",
     description: "Digital Sales and Solutions Delivery for an integrated Programme and MEL Suit for Development Funds and Programmes.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f6ed5584038dee30a680b6_SmartME-p-500.png",
     demoUrl: "https://www.smartrme.global/",
     githubUrl: "",
     techStack: ["NIRAS", "Digital Sales x Solutions Delivery", "Product Strategy"]
@@ -123,15 +123,15 @@ const ProjectsSection = () => {
   return (
     <section id="projects" className="py-32">
       <div className="container mx-auto px-4">
-        <div className="max-w-3xl mb-16">
+        <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Selected Technology References</h2>
           <p className="text-xl text-muted-foreground">
             A collection of product cases that showcase the technology projects I have been working on as either a software developer, digital solutions consultant or a Product Manager
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {filteredProjects.map(project => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          {projects.map(project => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>

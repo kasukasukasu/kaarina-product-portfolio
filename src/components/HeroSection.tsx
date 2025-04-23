@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin } from "lucide-react";
+import { Linkedin, Github } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="min-h-screen flex items-center bg-background pt-32">
+    <section id="hero" className="min-h-screen flex items-center bg-background pt-20">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-6">
               Digital Products with Impact
@@ -20,22 +20,14 @@ const HeroSection = () => {
               <Button
                 onClick={() => window.open('https://www.linkedin.com/in/kaarina-suominen/', '_blank')}
                 size="lg"
-                className="group"
+                className="group text-black"
               >
                 <Linkedin className="mr-2 h-4 w-4" />
                 LinkedIn
               </Button>
-              <Button
-                onClick={() => window.open('https://github.com/kaarinadev', '_blank')}
-                size="lg"
-                className="group"
-              >
-                <Github className="mr-2 h-4 w-4" />
-                Github
-              </Button>
             </div>
           </div>
-          <div className="flex justify-center md:justify-end">
+          <div className="hidden md:flex justify-center">
             <div className="relative w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-4 border-primary">
               <img 
                 src="/lovable-uploads/890f5c58-1f48-4e7a-9765-75dac4190ddf.png"

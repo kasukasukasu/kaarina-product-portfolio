@@ -52,7 +52,7 @@ const SkillsSection = () => {
   return (
     <section id="skills" className="py-32 bg-secondary/30">
       <div className="container mx-auto px-4">
-        <div className="max-w-3xl mb-16">
+        <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Core Skills</h2>
           <p className="text-xl text-muted-foreground">
             My expertise spans product strategy, user research, and technical leadership, enabling me to drive successful product outcomes.
