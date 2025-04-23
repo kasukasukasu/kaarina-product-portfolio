@@ -13,7 +13,7 @@
     --popover: 180 3% 6%;
     --popover-foreground: 180 2% 98%;
     
-    --primary: 142 76% 56%;
+    --primary: 84 98% 61%;
     --primary-foreground: 180 2% 98%;
     
     --secondary: 180 3% 12%;
@@ -72,6 +72,10 @@
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  body {
+    @apply bg-background text-foreground font-ubuntu;
   }
 }
 

@@ -3,11 +3,11 @@ import { Github, Linkedin } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="min-h-screen flex items-center bg-background">
+    <section id="hero" className="min-h-screen flex items-center bg-background pt-32">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="max-w-3xl">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-6">
               Digital Products with Impact
             </h1>
             <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-2xl">
