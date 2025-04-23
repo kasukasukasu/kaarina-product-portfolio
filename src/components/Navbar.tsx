@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { cn } from "@/lib/utils";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Github, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
@@ -20,13 +20,13 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <span className="text-xl font-bold">KS</span>
+          <span className="text-xl font-bold">Kaarina</span>
 
           <nav className="hidden md:flex items-center space-x-8">
-            {["projects", "skills", "contact"].map((section) => (
+            {["projects", "skills"].map((section) => (
               <button
                 key={section}
                 onClick={() => scrollToSection(section)}
@@ -35,6 +35,13 @@ const Navbar = () => {
                 {section}
               </button>
             ))}
+            <Button variant="ghost" size="icon" onClick={() => window.open('https://github.com', '_blank')}>
+              <Github className="h-5 w-5" />
+            </Button>
+            <Button onClick={() => scrollToSection('contact')} className="gap-2">
+              <Mail className="h-4 w-4" />
+              Contact
+            </Button>
           </nav>
 
           <Button 
