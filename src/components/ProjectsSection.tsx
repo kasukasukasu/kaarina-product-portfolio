@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import ProjectCard, { Project } from "./ProjectCard";
 
@@ -33,7 +34,7 @@ const projects: Project[] = [
     id: 4,
     title: "Digital Product Management x Business Development x Digital Sales",
     description: "Product Management and business operations development at the UNDP Chief Digital Office and UNDP Digital Studio.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f7540e4524b5eaca5142cf_CDO-p-500.png",
     demoUrl: "https://www.undp.org/digital",
     githubUrl: "",
     techStack: ["UNDP Chief Digital Office / ExO", "Product Management", "Business Development", "Digital Sales", "Software Sales"]
@@ -42,7 +43,7 @@ const projects: Project[] = [
     id: 5,
     title: "Digital Product Management",
     description: "Product Management for UNDP Accelerator Labs Web presence and reports digitalization.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f74ae2c6fd189594f5aad9_AccLabs.png",
     demoUrl: "https://www.undp.org/acceleratorlabs",
     githubUrl: "",
     techStack: ["UNDP Accelerator Labs", "Product Management", "Product Strategy"]
@@ -51,7 +52,7 @@ const projects: Project[] = [
     id: 6,
     title: "Digital Product Management",
     description: "Product Management for multiple digital tools to support democracy and information integrity, including iVerify and iReport.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f756b7f9ed005fb34ae23d_iVerify-p-500.png",
     demoUrl: "https://www.undp.org/digital/verify",
     githubUrl: "",
     techStack: ["UNDP Governance / Digital Democracy", "Product Management", "Product Strategy"]
@@ -60,7 +61,7 @@ const projects: Project[] = [
     id: 7,
     title: "Digital Product Management",
     description: "Product Management for open-source software ecosystems around the Paris Agreement, the UNDP Carbon Registry and the UNDP Transparency System.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f75c7802aea38a08e06bf9_CarbReg-p-500.png",
     demoUrl: "https://demo.carbonregistry.org/",
     githubUrl: "",
     techStack: ["UNDP Digital 4 Planet", "Product Management", "Product Strategy"]
@@ -69,7 +70,7 @@ const projects: Project[] = [
     id: 8,
     title: "Digital Product Management",
     description: "Product and Design Management for the SDG Investor Platform unlocking financing for the SDGs and the UNDP Sustainable Finance Hub.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f75edcd0d5daf21d2e028c_SDGInvestor-p-500.png",
     demoUrl: "https://sdginvestorplatform.undp.org/",
     githubUrl: "",
     techStack: ["UNDP Sustainable Finance Hub", "Product Management", "Product Strategy", "UX Research", "Workshop Facilitation"]
@@ -78,7 +79,7 @@ const projects: Project[] = [
     id: 9,
     title: "Digital Product Management",
     description: "Website Product Management and Information Management System Solutions Delivery for the UNDP Conscious Food Systems.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f75e5bdaab805a9229e8fb_COFSA-p-800.png",
     demoUrl: "https://consciousfoodsystems.org/",
     githubUrl: "",
     techStack: ["UNDP Conscious Food Systems", "Product Management", "Product Strategy", "Information Management"]
@@ -87,7 +88,7 @@ const projects: Project[] = [
     id: 10,
     title: "Digital Product Management",
     description: "Product Management for a Virtual Policy Platform for Participatory Policy Making in South-East Asia.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/663dd880c1afc0912971b096_Decidim_Cover-p-800.png",
     demoUrl: "https://decidim.org",
     githubUrl: "",
     techStack: ["Tech & Democracy", "Public Policy", "Product Management", "Product Strategy", "UX Research"]
@@ -96,7 +97,7 @@ const projects: Project[] = [
     id: 11,
     title: "Data Management System Build",
     description: "Development for an internal Reporting and Data Management system.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/66433c26cbde38c5dc58dfe5_Funding_Windows_Reporting-p-500.png",
     demoUrl: "https://www.undp.org",
     githubUrl: "",
     techStack: ["UNDP Funding Windows", "Data Management", "Data Analytics"]
@@ -105,7 +106,7 @@ const projects: Project[] = [
     id: 12,
     title: "Big Data Radio Mining & API Development PM",
     description: "Product Management for a Big Data Radio Mining and API Development collaboration pilot between the iVerify and Unite Wave Systems.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/67a2fb619a35971de10da32c_UniteWave2-p-500.png",
     demoUrl: "https://www.undp.org",
     githubUrl: "",
     techStack: ["Integration Pilot", "Product Management", "UX Research"]

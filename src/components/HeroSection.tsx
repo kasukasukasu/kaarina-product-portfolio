@@ -1,9 +1,10 @@
+
 import { Button } from "@/components/ui/button";
 import { Linkedin, Github } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="min-h-screen flex items-center bg-background pt-20">
+    <section id="hero" className="min-h-screen flex items-center bg-background pt-32">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="max-w-3xl">
@@ -24,6 +25,14 @@ const HeroSection = () => {
               >
                 <Linkedin className="mr-2 h-4 w-4" />
                 LinkedIn
+              </Button>
+              <Button
+                onClick={() => window.open('https://github.com/kaarinadev', '_blank')}
+                size="lg"
+                className="group text-black"
+              >
+                <Github className="mr-2 h-4 w-4" />
+                GitHub
               </Button>
             </div>
           </div>
