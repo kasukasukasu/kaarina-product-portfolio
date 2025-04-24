@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Linkedin, Github } from "lucide-react";
 
@@ -8,8 +7,8 @@ const HeroSection = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-6">
-              Digital Products with Impact
+            <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight mb-6">
+              <span className="text-[#b0fc38]">Digital Products</span>, with Impact
             </h1>
             <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-2xl">
               Hi I'm Kaarina, a Digital Product Manager, Technology Consultant and a Social Scientist with roots in Finland and Vietnam. You could also describe me as a Tech-Human Bridgebuilder with expertise spanning across socio-technical issues, blending technology and digital solutions with societal needs.

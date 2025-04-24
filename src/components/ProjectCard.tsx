@@ -21,11 +21,11 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <Card className="group overflow-hidden border-none shadow-none p-0">
       <div className="space-y-6">
-        <div className="overflow-hidden rounded-lg">
+        <div className="overflow-hidden rounded-lg h-[250px]">
           <img 
             src={project.image} 
             alt={project.title} 
-            className="w-full h-[300px] object-cover transition-transform duration-300 group-hover:scale-105" 
+            className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105" 
           />
         </div>
         
