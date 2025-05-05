@@ -104,17 +104,17 @@ const projects: Project[] = [
   },
   {
     id: 12,
-    title: "Big Data Radio Mining & API Development PM",
+    title: "Big Data Radio Mining, AI & API Development PM",
     description: "Product Management for a Big Data Radio Mining and API Development collaboration pilot between the iVerify and Unite Wave Systems.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/67a2fb619a35971de10da32c_UniteWave2-p-500.png",
     demoUrl: "https://www.undp.org",
     githubUrl: "",
-    techStack: ["Integration Pilot", "Product Management", "UX Research"]
+    techStack: ["Integration Pilot", "Product Management", "UX Research", "Artificial Intelligence"]
   },
   {
     id: 13,
-    title: "Product Studio Management",
-    description: "Leading a product studio team to build better digital products faster with efficient agile methodologies and best design practices.",
+    title: "Digital Design & Sales x Product Studio",
+    description: "Designing and leading digital product end-to-end cycles using efficient agile methodologies",
     image: "public/lovable-uploads/6d1c91f0-a3fc-4d80-b1a0-14616177ca38.png",
     demoUrl: "https://www.example.com/product-studio",
     githubUrl: "",
@@ -122,8 +122,8 @@ const projects: Project[] = [
   },
   {
     id: 14,
-    title: "Electoral Conflict Management System",
-    description: "Product management for an early warning system to identify and mitigate electoral conflicts in developing countries.",
+    title: "Electoral Conflict Reporting System",
+    description: "Product management for an system to identify and report electoral conflicts.",
     image: "public/lovable-uploads/a5920c90-a234-4c0b-a22d-30d1cc909d48.png",
     demoUrl: "https://www.example.com/electoral-system",
     githubUrl: "",
@@ -131,12 +131,12 @@ const projects: Project[] = [
   },
   {
     id: 15,
-    title: "Media Truth Verification Platform",
-    description: "Product management for a platform separating truth from fiction in breaking news across Pakistan and the broader region.",
+    title: "AI & Information Integrity Platform",
+    description: "Product management for an AI Human-in-the-loop platform separating truth from fiction in news",
     image: "public/lovable-uploads/b99342b4-9505-4ecb-9b6f-a4c1c3c68c10.png",
     demoUrl: "https://www.example.com/truth-verification",
     githubUrl: "",
-    techStack: ["Media Tech", "Fact Checking", "News Verification", "Information Integrity"]
+    techStack: ["Media Tech", "Fact Checking", "News Verification", "Information Integrity", "Artificial Intelligence"]
   }
 ];
 
