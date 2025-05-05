@@ -110,6 +110,33 @@ const projects: Project[] = [
     demoUrl: "https://www.undp.org",
     githubUrl: "",
     techStack: ["Integration Pilot", "Product Management", "UX Research"]
+  },
+  {
+    id: 13,
+    title: "Product Studio Management",
+    description: "Leading a product studio team to build better digital products faster with efficient agile methodologies and best design practices.",
+    image: "public/lovable-uploads/6d1c91f0-a3fc-4d80-b1a0-14616177ca38.png",
+    demoUrl: "https://www.example.com/product-studio",
+    githubUrl: "",
+    techStack: ["Product Leadership", "Agile Development", "Design Thinking", "Product Strategy"]
+  },
+  {
+    id: 14,
+    title: "Electoral Conflict Management System",
+    description: "Product management for an early warning system to identify and mitigate electoral conflicts in developing countries.",
+    image: "public/lovable-uploads/a5920c90-a234-4c0b-a22d-30d1cc909d48.png",
+    demoUrl: "https://www.example.com/electoral-system",
+    githubUrl: "",
+    techStack: ["Democracy Tech", "Conflict Mapping", "Data Analysis", "Product Management"]
+  },
+  {
+    id: 15,
+    title: "Media Truth Verification Platform",
+    description: "Product management for a platform separating truth from fiction in breaking news across Pakistan and the broader region.",
+    image: "public/lovable-uploads/b99342b4-9505-4ecb-9b6f-a4c1c3c68c10.png",
+    demoUrl: "https://www.example.com/truth-verification",
+    githubUrl: "",
+    techStack: ["Media Tech", "Fact Checking", "News Verification", "Information Integrity"]
   }
 ];
 

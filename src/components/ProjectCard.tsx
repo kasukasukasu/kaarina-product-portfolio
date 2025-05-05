@@ -1,3 +1,4 @@
+
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -21,11 +22,11 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <Card className="group overflow-hidden border-none shadow-none p-0">
       <div className="space-y-6">
-        <div className="overflow-hidden rounded-lg h-[250px]">
+        <div className="overflow-hidden rounded-lg h-[250px] flex items-center justify-center bg-secondary/30">
           <img 
             src={project.image} 
             alt={project.title} 
-            className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105" 
+            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-105" 
           />
         </div>
         
