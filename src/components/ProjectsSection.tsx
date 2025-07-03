@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import ProjectCard, { Project } from "./ProjectCard";
 
@@ -18,7 +19,7 @@ const projects: Project[] = [
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f759aab0e037bb331e5b0d_NIRAS-p-800.png",
     demoUrl: "https://www.niras.com/sectors/development-consulting/",
     githubUrl: "",
-    techStack: ["NIRAS", "Product Management", "Product Strategy"]
+    techStack: ["NIRAS", "Product Management", "Product Strategy", "Project Management"]
   },
   {
     id: 3,
@@ -27,7 +28,7 @@ const projects: Project[] = [
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f6ed5584038dee30a680b6_SmartME-p-500.png",
     demoUrl: "https://www.smartrme.global/",
     githubUrl: "",
-    techStack: ["NIRAS", "Digital Sales x Solutions Delivery", "Product Strategy"]
+    techStack: ["NIRAS", "Digital Sales x Solutions Delivery", "Product Strategy", "Project Management"]
   },
   {
     id: 4,
@@ -36,7 +37,7 @@ const projects: Project[] = [
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f7540e4524b5eaca5142cf_CDO-p-500.png",
     demoUrl: "https://www.undp.org/digital",
     githubUrl: "",
-    techStack: ["UNDP Chief Digital Office / ExO", "Product Management", "Business Development", "Digital Sales", "Software Sales"]
+    techStack: ["UNDP Chief Digital Office / ExO", "Product Management", "Business Development", "Digital Sales", "Software Sales", "Project Management"]
   },
   {
     id: 5,
@@ -45,7 +46,7 @@ const projects: Project[] = [
     image: "/lovable-uploads/55452907-eda7-4224-9b7a-bfb6c42ee9a0.png",
     demoUrl: "https://www.undp.org/acceleratorlabs",
     githubUrl: "",
-    techStack: ["UNDP Accelerator Labs", "Product Management", "Product Strategy"]
+    techStack: ["UNDP Accelerator Labs", "Product Management", "Product Strategy", "Project Management"]
   },
   {
     id: 6,
@@ -54,7 +55,7 @@ const projects: Project[] = [
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f756b7f9ed005fb34ae23d_iVerify-p-500.png",
     demoUrl: "https://www.undp.org/digital/verify",
     githubUrl: "",
-    techStack: ["UNDP Governance / Digital Democracy", "Product Management", "Product Strategy"]
+    techStack: ["UNDP Governance / Digital Democracy", "Product Management", "Product Strategy", "Project Management"]
   },
   {
     id: 7,
@@ -63,7 +64,7 @@ const projects: Project[] = [
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f75c7802aea38a08e06bf9_CarbReg-p-500.png",
     demoUrl: "https://demo.carbonregistry.org/",
     githubUrl: "",
-    techStack: ["UNDP Digital 4 Planet", "Product Management", "Product Strategy"]
+    techStack: ["UNDP Digital 4 Planet", "Product Management", "Product Strategy", "Project Management"]
   },
   {
     id: 8,
@@ -72,7 +73,7 @@ const projects: Project[] = [
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f75edcd0d5daf21d2e028c_SDGInvestor-p-500.png",
     demoUrl: "https://sdginvestorplatform.undp.org/",
     githubUrl: "",
-    techStack: ["UNDP Sustainable Finance Hub", "Product Management", "Product Strategy", "UX Research", "Workshop Facilitation"]
+    techStack: ["UNDP Sustainable Finance Hub", "Product Management", "Product Strategy", "UX Research", "Workshop Facilitation", "Project Management"]
   },
   {
     id: 9,
@@ -81,7 +82,7 @@ const projects: Project[] = [
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f75e5bdaab805a9229e8fb_COFSA-p-800.png",
     demoUrl: "https://consciousfoodsystems.org/",
     githubUrl: "",
-    techStack: ["UNDP Conscious Food Systems", "Product Management", "Product Strategy", "Information Management"]
+    techStack: ["UNDP Conscious Food Systems", "Product Management", "Product Strategy", "Information Management", "Project Management"]
   },
   {
     id: 10,
@@ -90,7 +91,7 @@ const projects: Project[] = [
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/663dd880c1afc0912971b096_Decidim_Cover-p-800.png",
     demoUrl: "https://decidim.org",
     githubUrl: "",
-    techStack: ["Tech & Democracy", "Public Policy", "Product Management", "Product Strategy", "UX Research"]
+    techStack: ["Tech & Democracy", "Public Policy", "Product Management", "Product Strategy", "UX Research", "Project Management"]
   },
   {
     id: 11,
@@ -99,25 +100,25 @@ const projects: Project[] = [
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/66433c26cbde38c5dc58dfe5_Funding_Windows_Reporting-p-500.png",
     demoUrl: "https://www.undp.org",
     githubUrl: "",
-    techStack: ["UNDP Funding Windows", "Data Management", "Data Analytics"]
+    techStack: ["UNDP Funding Windows", "Data Management", "Data Analytics", "Project Management"]
   },
   {
     id: 12,
-    title: "Big Data Radio Mining, AI & API Development PM",
+    title: "Big Data Radio Mining Product Management",
     description: "Product Management for a Big Data Radio Mining and API Development collaboration pilot between the iVerify and Unite Wave Systems.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/67a2fb619a35971de10da32c_UniteWave2-p-500.png",
     demoUrl: "https://www.undp.org",
     githubUrl: "",
-    techStack: ["Integration Pilot", "Product Management", "UX Research", "Artificial Intelligence"]
+    techStack: ["Integration Pilot", "Product Management", "UX Research", "Artificial Intelligence", "Project Management"]
   },
   {
     id: 13,
-    title: "Digital Design & Sales x Product Studio",
-    description: "Designing and leading digital product end-to-end cycles using efficient agile methodologies",
+    title: "AI Products, Development, Design & Sales x Product Studio",
+    description: "Full stack builder and technical product/project manager. Designing, developing and leading AI & digital products end-to-end cycles",
     image: "public/lovable-uploads/6d1c91f0-a3fc-4d80-b1a0-14616177ca38.png",
     demoUrl: "https://www.example.com/product-studio",
     githubUrl: "",
-    techStack: ["Product Leadership", "Agile Development", "Design Thinking", "Product Strategy"]
+    techStack: ["Product Leadership", "Agile Development", "Design Thinking", "Product Strategy", "Project Management"]
   },
   {
     id: 14,
@@ -126,7 +127,7 @@ const projects: Project[] = [
     image: "public/lovable-uploads/a5920c90-a234-4c0b-a22d-30d1cc909d48.png",
     demoUrl: "https://www.example.com/electoral-system",
     githubUrl: "",
-    techStack: ["Democracy Tech", "Conflict Mapping", "Data Analysis", "Product Management"]
+    techStack: ["Democracy Tech", "Conflict Mapping", "Data Analysis", "Product Management", "Project Management"]
   },
   {
     id: 15,
@@ -135,7 +136,7 @@ const projects: Project[] = [
     image: "public/lovable-uploads/b99342b4-9505-4ecb-9b6f-a4c1c3c68c10.png",
     demoUrl: "https://www.example.com/truth-verification",
     githubUrl: "",
-    techStack: ["Media Tech", "Fact Checking", "News Verification", "Information Integrity", "Artificial Intelligence"]
+    techStack: ["Media Tech", "Fact Checking", "News Verification", "Information Integrity", "Artificial Intelligence", "Project Management"]
   }
 ];
 
