@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import ProjectCard, { Project } from "./ProjectCard";
 
@@ -42,8 +41,8 @@ const projects: Project[] = [
   {
     id: 5,
     title: "Digital Product Management",
-    description: "Product Management for UNDP Accelerator Labs Web presence and reports digitalization.",
-    image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f74ae2c6fd189594f5aad9_AccLabs.png",
+    description: "Product Management for UNDP Accelerator Labs Web presence and the Untapped collective intelligence for climate action repot digitalization.",
+    image: "/lovable-uploads/55452907-eda7-4224-9b7a-bfb6c42ee9a0.png",
     demoUrl: "https://www.undp.org/acceleratorlabs",
     githubUrl: "",
     techStack: ["UNDP Accelerator Labs", "Product Management", "Product Strategy"]
