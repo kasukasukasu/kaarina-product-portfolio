@@ -115,7 +115,7 @@ const projects: Project[] = [
     id: 13,
     title: "AI Products, Development, Design & Sales x Product Studio",
     description: "Full stack builder and technical product/project manager. Designing, developing and leading AI & digital products end-to-end cycles",
-    image: "public/lovable-uploads/6d1c91f0-a3fc-4d80-b1a0-14616177ca38.png",
+    image: "/lovable-uploads/6d1c91f0-a3fc-4d80-b1a0-14616177ca38.png",
     demoUrl: "https://www.example.com/product-studio",
     githubUrl: "",
     techStack: ["Product Leadership", "Agile Development", "Design Thinking", "Product Strategy", "Project Management"]
@@ -124,7 +124,7 @@ const projects: Project[] = [
     id: 14,
     title: "Electoral Conflict Reporting System",
     description: "Product management for an system to identify and report electoral conflicts.",
-    image: "public/lovable-uploads/a5920c90-a234-4c0b-a22d-30d1cc909d48.png",
+    image: "/lovable-uploads/a5920c90-a234-4c0b-a22d-30d1cc909d48.png",
     demoUrl: "https://www.example.com/electoral-system",
     githubUrl: "",
     techStack: ["Democracy Tech", "Conflict Mapping", "Data Analysis", "Product Management", "Project Management"]
