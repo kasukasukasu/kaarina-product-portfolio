@@ -131,12 +131,12 @@ const projects: Project[] = [
   },
   {
     id: 15,
-    title: "AI & Information Integrity Platform",
-    description: "Product management for an AI Human-in-the-loop platform separating truth from fiction in news",
-    image: "public/lovable-uploads/b99342b4-9505-4ecb-9b6f-a4c1c3c68c10.png",
-    demoUrl: "https://www.example.com/truth-verification",
+    title: "AI Hub for Sustainable development platform pilot for African AI innovators",
+    description: "AI PM & Development for the AI hub for Sustainable Development",
+    image: "/lovable-uploads/5006dddf-724c-4522-bf3c-93c65495ecdd.png",
+    demoUrl: "https://www.example.com/ai-hub",
     githubUrl: "",
-    techStack: ["Media Tech", "Fact Checking", "News Verification", "Information Integrity", "Artificial Intelligence", "Project Management"]
+    techStack: ["AI Hub", "Sustainable Development", "African Innovation", "Artificial Intelligence", "Project Management"]
   }
 ];
 
