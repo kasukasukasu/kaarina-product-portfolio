@@ -41,7 +41,7 @@ const projects: Project[] = [
   {
     id: 5,
     title: "Digital Product Management",
-    description: "Product Management for UNDP Accelerator Labs Web presence and the Untapped collective intelligence for climate action repot digitalization.",
+    description: "Product Management for UNDP Accelerator Labs Web presence and the UNTAPPED collective intelligence for climate action report digitalization.",
     image: "/lovable-uploads/55452907-eda7-4224-9b7a-bfb6c42ee9a0.png",
     demoUrl: "https://www.undp.org/acceleratorlabs",
     githubUrl: "",
