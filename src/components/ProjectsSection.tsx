@@ -124,7 +124,7 @@ const projects: Project[] = [
     id: 14,
     title: "Electoral Conflict Reporting System",
     description: "Product management for an system to identify and report electoral conflicts.",
-    image: "/lovable-uploads/a5920c90-a234-4c0b-a22d-30d1cc909d48.png",
+    image: "/lovable-uploads/1e522141-0037-43d9-8a40-8d5080504c99.png",
     demoUrl: "https://www.example.com/electoral-system",
     githubUrl: "",
     techStack: ["Democracy Tech", "Conflict Mapping", "Data Analysis", "Product Management", "Project Management"]
