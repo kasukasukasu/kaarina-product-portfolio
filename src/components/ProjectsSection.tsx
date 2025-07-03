@@ -114,7 +114,7 @@ const projects: Project[] = [
   {
     id: 13,
     title: "AI Products, Development, Design & Sales x Product Studio",
-    description: "Full stack builder and technical product/project manager. Designing, developing and leading AI & digital products end-to-end cycles",
+    description: "UNDP Product Studio is an in-house agency that designs and deploys scalable digital solutions across the UN system. This initiative helps the UN serve its mandates more effectively by leveraging cutting-edge technologies.",
     image: "/lovable-uploads/6d1c91f0-a3fc-4d80-b1a0-14616177ca38.png",
     demoUrl: "https://www.example.com/product-studio",
     githubUrl: "",
