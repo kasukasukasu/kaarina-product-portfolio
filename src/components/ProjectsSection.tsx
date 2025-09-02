@@ -137,6 +137,33 @@ const projects: Project[] = [
     demoUrl: "https://www.example.com/ai-hub",
     githubUrl: "",
     techStack: ["AI Hub", "Sustainable Development", "African Innovation", "Artificial Intelligence", "Project Management"]
+  },
+  {
+    id: 16,
+    title: "AI For Partner Intelligence - Design",
+    description: "User research and prompt library building",
+    image: "/lovable-uploads/b99342b4-9505-4ecb-9b6f-a4c1c3c68c10.png",
+    demoUrl: "https://www.example.com/ai-partner-intelligence",
+    githubUrl: "",
+    techStack: ["AI", "User Research", "Prompt Engineering", "Design", "Product Management"]
+  },
+  {
+    id: 17,
+    title: "Partner country Human rights comission case management system",
+    description: "Building a case management system for processing human rights complaints",
+    image: "/lovable-uploads/890f5c58-1f48-4e7a-9765-75dac4190ddf.png",
+    demoUrl: "https://www.example.com/hr-case-management",
+    githubUrl: "",
+    techStack: ["Human Rights", "Case Management", "System Development", "Product Management", "Project Management"]
+  },
+  {
+    id: 18,
+    title: "Digital & AI Tools Proposal building x sales",
+    description: "Leading the technical and financial proposals for 15+ products",
+    image: "/lovable-uploads/a5920c90-a234-4c0b-a22d-30d1cc909d48.png",
+    demoUrl: "https://www.example.com/digital-ai-proposals",
+    githubUrl: "",
+    techStack: ["Digital Sales", "AI Tools", "Proposal Building", "Business Development", "Product Management"]
   }
 ];
 
