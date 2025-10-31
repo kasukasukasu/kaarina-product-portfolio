@@ -105,7 +105,7 @@ const projects: Project[] = [
   {
     id: 12,
     title: "AI For Partner Intelligence - Design",
-    description: "User research and prompt library building",
+    description: "Technical Product and Design Lead. Led the design phase of an AI-powered donor intelligence platform bridging user-centered design to surface actionable insights and technical development with organizational strategy, ensuring the AI solution aligns with real user needs and long-term sustainability goals.",
     image: "/lovable-uploads/ai-sustainable-dev.png",
     demoUrl: "https://www.example.com/ai-partner-intelligence",
     githubUrl: "",
