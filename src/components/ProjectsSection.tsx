@@ -33,11 +33,11 @@ const projects: Project[] = [
   {
     id: 4,
     title: "Digital Product Management x Business Development x Digital Sales",
-    description: "Product Management and business operations development at the UNDP Chief Digital Office and UNDP Digital Studio.",
+    description: "Product Management and business operations development at the UNDP Chief Digital Office and UNDP Digital Studio. Leading the technical and financial proposals for 15+ products",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f7540e4524b5eaca5142cf_CDO-p-500.png",
     demoUrl: "https://www.undp.org/digital",
     githubUrl: "",
-    techStack: ["UNDP Chief Digital Office / ExO", "Product Management", "Business Development", "Digital Sales", "Software Sales", "Project Management"]
+    techStack: ["UNDP Chief Digital Office / ExO", "Product Management", "Business Development", "Digital Sales", "AI Tools", "Proposal Building", "Software Sales", "Project Management"]
   },
   {
     id: 5,
