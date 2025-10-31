@@ -104,12 +104,12 @@ const projects: Project[] = [
   },
   {
     id: 12,
-    title: "Big Data Radio Mining Product Management",
-    description: "Product Management for a Big Data Radio Mining and API Development collaboration pilot between the iVerify and Unite Wave Systems.",
-    image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/67a2fb619a35971de10da32c_UniteWave2-p-500.png",
-    demoUrl: "https://www.undp.org",
+    title: "AI For Partner Intelligence - Design",
+    description: "User research and prompt library building",
+    image: "/lovable-uploads/b4ee468c-73d6-488f-a49b-b3fb31576df4.png",
+    demoUrl: "https://www.example.com/ai-partner-intelligence",
     githubUrl: "",
-    techStack: ["Integration Pilot", "Product Management", "UX Research", "Artificial Intelligence", "Project Management"]
+    techStack: ["AI", "User Research", "Prompt Engineering", "Design", "Product Management"]
   },
   {
     id: 13,
