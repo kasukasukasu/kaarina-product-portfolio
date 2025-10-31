@@ -103,6 +103,15 @@ const projects: Project[] = [
     techStack: ["UNDP Funding Windows", "Data Management", "Data Analytics", "Project Management"]
   },
   {
+    id: 12,
+    title: "AI For Partner Intelligence - Design",
+    description: "Technical Product and Design Lead. Led the design phase of an AI-powered donor intelligence platform bridging user-centered design to surface actionable insights and technical development with organizational strategy, ensuring the AI solution aligns with real user needs and long-term sustainability goals.",
+    image: "/lovable-uploads/ai-sustainable-dev.png",
+    demoUrl: "https://www.example.com/ai-partner-intelligence",
+    githubUrl: "",
+    techStack: ["Product Leadership", "Generative AI & Prompt Engineering", "Data Integration & Knowledge Management", "UX Research & User Testing", "AI Governance & Quality Assurance", "Roadmap Planning & Stakeholder Management"]
+  },
+  {
     id: 13,
     title: "AI Products, Development, Design & Sales x Product Studio",
     description: "UNDP Product Studio is an in-house agency that designs and deploys scalable digital solutions across the UN system. This initiative helps the UN serve its mandates more effectively by leveraging cutting-edge technologies.",
@@ -128,15 +137,6 @@ const projects: Project[] = [
     demoUrl: "https://www.example.com/ai-hub",
     githubUrl: "",
     techStack: ["AI Hub", "Sustainable Development", "African Innovation", "Artificial Intelligence", "Project Management"]
-  },
-  {
-    id: 12,
-    title: "AI For Partner Intelligence - Design",
-    description: "Technical Product and Design Lead. Led the design phase of an AI-powered donor intelligence platform bridging user-centered design to surface actionable insights and technical development with organizational strategy, ensuring the AI solution aligns with real user needs and long-term sustainability goals.",
-    image: "/lovable-uploads/ai-sustainable-dev.png",
-    demoUrl: "https://www.example.com/ai-partner-intelligence",
-    githubUrl: "",
-    techStack: ["Product Leadership", "Generative AI & Prompt Engineering", "Data Integration & Knowledge Management", "UX Research & User Testing", "AI Governance & Quality Assurance", "Roadmap Planning & Stakeholder Management"]
   }
 ];
 
