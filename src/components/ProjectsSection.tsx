@@ -106,7 +106,7 @@ const projects: Project[] = [
     id: 12,
     title: "AI For Partner Intelligence - Design",
     description: "User research and prompt library building",
-    image: "/lovable-uploads/b4ee468c-73d6-488f-a49b-b3fb31576df4.png",
+    image: "/lovable-uploads/ai-sustainable-dev.png",
     demoUrl: "https://www.example.com/ai-partner-intelligence",
     githubUrl: "",
     techStack: ["AI", "User Research", "Prompt Engineering", "Design", "Product Management"]
