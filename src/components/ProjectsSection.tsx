@@ -109,7 +109,7 @@ const projects: Project[] = [
     image: "/lovable-uploads/ai-sustainable-dev.png",
     demoUrl: "https://www.example.com/ai-partner-intelligence",
     githubUrl: "",
-    techStack: ["AI", "User Research", "Prompt Engineering", "Design", "Product Management"]
+    techStack: ["Product Leadership", "Generative AI & Prompt Engineering", "Data Integration & Knowledge Management", "UX Research & User Testing", "AI Governance & Quality Assurance", "Roadmap Planning & Stakeholder Management"]
   },
   {
     id: 13,
