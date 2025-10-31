@@ -138,33 +138,6 @@ const projects: Project[] = [
     githubUrl: "",
     techStack: ["AI Hub", "Sustainable Development", "African Innovation", "Artificial Intelligence", "Project Management"]
   },
-  {
-    id: 16,
-    title: "AI For Partner Intelligence - Design",
-    description: "User research and prompt library building",
-    image: "/lovable-uploads/b4ee468c-73d6-488f-a49b-b3fb31576df4.png",
-    demoUrl: "https://www.example.com/ai-partner-intelligence",
-    githubUrl: "",
-    techStack: ["AI", "User Research", "Prompt Engineering", "Design", "Product Management"]
-  },
-  {
-    id: 17,
-    title: "Partner country Human rights comission case management system",
-    description: "Building a case management system for processing human rights complaints",
-    image: "/lovable-uploads/b4ee468c-73d6-488f-a49b-b3fb31576df4.png",
-    demoUrl: "https://www.example.com/hr-case-management",
-    githubUrl: "",
-    techStack: ["Human Rights", "Case Management", "System Development", "Product Management", "Project Management"]
-  },
-  {
-    id: 18,
-    title: "Digital & AI Tools Proposal building x sales",
-    description: "Leading the technical and financial proposals for 15+ products",
-    image: "/lovable-uploads/b4ee468c-73d6-488f-a49b-b3fb31576df4.png",
-    demoUrl: "https://www.example.com/digital-ai-proposals",
-    githubUrl: "",
-    techStack: ["Digital Sales", "AI Tools", "Proposal Building", "Business Development", "Product Management"]
-  }
 ];
 
 const ProjectsSection = () => {
