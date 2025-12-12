@@ -42,6 +42,14 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
               </Badge>
             ))}
           </div>
+          {project.demoUrl && (
+            <Button asChild variant="outline" className="gap-2">
+              <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
+                Go To Project / Company
+                <ArrowRight className="h-4 w-4" />
+              </a>
+            </Button>
+          )}
         </div>
       </div>
     </Card>
