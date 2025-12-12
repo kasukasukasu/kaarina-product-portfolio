@@ -8,7 +8,7 @@ const projects: Project[] = [
     title: "Full-Stack Software Development",
     description: "Developing, testing and maintaining software products for a wide range of clients from retail to banking and insurance sectors.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f61df653cdcc61b90a097e_logo%20ACN-p-500.png",
-    demoUrl: "https://www.accenture.com/fi-en/about/company/finland",
+    demoUrl: "https://www.accenture.com/fi-en/about/technology-index",
     githubUrl: "",
     techStack: ["Accenture", "Software Development"]
   },
@@ -26,7 +26,7 @@ const projects: Project[] = [
     title: "Digital Sales x Solutions Delivery",
     description: "Digital Sales and Solutions Delivery for an integrated Programme and MEL Suit for Development Funds and Programmes.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f6ed5584038dee30a680b6_SmartME-p-500.png",
-    demoUrl: "https://www.smartrme.global/",
+    demoUrl: "https://www.smartme.global/",
     githubUrl: "",
     techStack: ["NIRAS", "Digital Sales x Solutions Delivery", "Product Strategy", "Project Management"]
   },
@@ -44,7 +44,7 @@ const projects: Project[] = [
     title: "Digital Product Management",
     description: "Product Management for UNDP Accelerator Labs Web presence and the UNTAPPED collective intelligence for climate action report digitalization.",
     image: "/lovable-uploads/55452907-eda7-4224-9b7a-bfb6c42ee9a0.png",
-    demoUrl: "https://www.undp.org/acceleratorlabs",
+    demoUrl: "https://www.undp.org/acceleratorlabs/our-work/untapped",
     githubUrl: "",
     techStack: ["UNDP Accelerator Labs", "Product Management", "Product Strategy", "Project Management"]
   },
@@ -53,7 +53,7 @@ const projects: Project[] = [
     title: "Digital Product Management",
     description: "Product Management for multiple digital tools to support democracy and information integrity, including iVerify and iReport.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f756b7f9ed005fb34ae23d_iVerify-p-500.png",
-    demoUrl: "https://www.undp.org/digital/verify",
+    demoUrl: "https://www.undp.org/digital/iverify",
     githubUrl: "",
     techStack: ["UNDP Governance / Digital Democracy", "Product Management", "Product Strategy", "Project Management"]
   },
@@ -62,7 +62,7 @@ const projects: Project[] = [
     title: "Digital Product Management",
     description: "Product Management for open-source software ecosystems around the Paris Agreement, the UNDP Carbon Registry and the UNDP Transparency System.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f75c7802aea38a08e06bf9_CarbReg-p-500.png",
-    demoUrl: "https://demo.carbonregistry.org/",
+    demoUrl: "https://github.com/undp/undp-national-carbon-registry/",
     githubUrl: "",
     techStack: ["UNDP Digital 4 Planet", "Product Management", "Product Strategy", "Project Management"]
   },
@@ -71,7 +71,7 @@ const projects: Project[] = [
     title: "Digital Product Management",
     description: "Product and Design Management for the SDG Investor Platform unlocking financing for the SDGs and the UNDP Sustainable Finance Hub.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f75edcd0d5daf21d2e028c_SDGInvestor-p-500.png",
-    demoUrl: "https://sdginvestorplatform.undp.org/",
+    demoUrl: "https://sdgprivatefinance.undp.org/",
     githubUrl: "",
     techStack: ["UNDP Sustainable Finance Hub", "Product Management", "Product Strategy", "UX Research", "Workshop Facilitation", "Project Management"]
   },
@@ -89,7 +89,7 @@ const projects: Project[] = [
     title: "Digital Product Management",
     description: "Product Management for a Virtual Policy Platform for Participatory Policy Making in South-East Asia.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/663dd880c1afc0912971b096_Decidim_Cover-p-800.png",
-    demoUrl: "https://decidim.org",
+    demoUrl: "",
     githubUrl: "",
     techStack: ["Tech & Democracy", "Public Policy", "Product Management", "Product Strategy", "UX Research", "Project Management"]
   },
@@ -98,7 +98,7 @@ const projects: Project[] = [
     title: "Data Management System Build",
     description: "Development for an internal Reporting and Data Management system.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/66433c26cbde38c5dc58dfe5_Funding_Windows_Reporting-p-500.png",
-    demoUrl: "https://www.undp.org",
+    demoUrl: "",
     githubUrl: "",
     techStack: ["UNDP Funding Windows", "Data Management", "Data Analytics", "Project Management"]
   },
@@ -107,7 +107,7 @@ const projects: Project[] = [
     title: "Electoral Conflict Reporting System",
     description: "Product management for an system to identify and report electoral conflicts.",
     image: "/lovable-uploads/1e522141-0037-43d9-8a40-8d5080504c99.png",
-    demoUrl: "https://www.example.com/electoral-system",
+    demoUrl: "",
     githubUrl: "",
     techStack: ["Democracy Tech", "Conflict Mapping", "Data Analysis", "Product Management", "Project Management"]
   },
@@ -116,7 +116,7 @@ const projects: Project[] = [
     title: "AI Products, Development, Design & Sales x Product Studio",
     description: "UNDP Product Studio is an in-house agency that designs and deploys scalable digital solutions across the UN system. This initiative helps the UN serve its mandates more effectively by leveraging cutting-edge technologies.",
     image: "/lovable-uploads/6d1c91f0-a3fc-4d80-b1a0-14616177ca38.png",
-    demoUrl: "https://www.example.com/product-studio",
+    demoUrl: "https://www.undp.org/digital/productstudio",
     githubUrl: "",
     techStack: ["Product Leadership", "Agile Development", "Design Thinking", "Product Strategy", "Project Management"]
   },
@@ -125,7 +125,7 @@ const projects: Project[] = [
     title: "AI Hub for Sustainable development platform pilot for African AI innovators",
     description: "AI PM & Development for the AI hub for Sustainable Development",
     image: "/lovable-uploads/5006dddf-724c-4522-bf3c-93c65495ecdd.png",
-    demoUrl: "https://www.example.com/ai-hub",
+    demoUrl: "https://ask.aihubfordevelopment.org/",
     githubUrl: "",
     techStack: ["AI Hub", "Sustainable Development", "African Innovation", "Artificial Intelligence", "Project Management"]
   },
@@ -134,7 +134,7 @@ const projects: Project[] = [
     title: "AI For Partner Intelligence - Design",
     description: "Technical Product and Design Lead. Led the design phase of an AI-powered donor intelligence platform bridging user-centered design to surface actionable insights and technical development with organizational strategy, ensuring the AI solution aligns with real user needs and long-term sustainability goals.",
     image: "/lovable-uploads/ai-sustainable-dev.png",
-    demoUrl: "https://www.example.com/ai-partner-intelligence",
+    demoUrl: "",
     githubUrl: "",
     techStack: ["Product Leadership", "Generative AI & Prompt Engineering", "Data Integration & Knowledge Management", "UX Research & User Testing", "AI Governance & Quality Assurance", "Roadmap Planning & Stakeholder Management"]
   }
