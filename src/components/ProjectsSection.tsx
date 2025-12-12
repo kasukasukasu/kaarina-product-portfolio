@@ -46,7 +46,7 @@ const projects: Project[] = [
     image: "/lovable-uploads/55452907-eda7-4224-9b7a-bfb6c42ee9a0.png",
     demoUrl: "https://www.undp.org/acceleratorlabs/our-work/untapped",
     githubUrl: "",
-    techStack: ["UNDP Accelerator Labs", "UI/UX", "Drupal CMS"]
+    techStack: ["UNDP Accelerator Labs", "UI/UX", "Drupal CMS", "UX Research", "Stakeholder Management", "Product Management", "Project Management"]
   },
   {
     id: 6,
@@ -55,7 +55,7 @@ const projects: Project[] = [
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f756b7f9ed005fb34ae23d_iVerify-p-500.png",
     demoUrl: "https://www.undp.org/digital/iverify",
     githubUrl: "",
-    techStack: ["UNDP Governance / Digital Democracy", "Information Integrity", "Human-in-the-loop Machine Learning", "Cloud Architecture", "AWS", "Functionality Specifications", "UI/UX", "Stakeholder Management", "Maintenance", "Integrations", "Digital Public Good"]
+    techStack: ["UNDP Governance / Digital Democracy", "Information Integrity", "Human-in-the-loop Machine Learning", "Cloud Architecture", "AWS", "Functionality Specifications", "UI/UX", "Stakeholder Management", "Maintenance", "Integrations", "Digital Public Good", "Proposal Development", "Product Strategy"]
   },
   {
     id: 7,
@@ -64,52 +64,52 @@ const projects: Project[] = [
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f75c7802aea38a08e06bf9_CarbReg-p-500.png",
     demoUrl: "https://github.com/undp/undp-national-carbon-registry/",
     githubUrl: "",
-    techStack: ["UNDP Digital 4 Planet", "Climate Tech", "Cloud Architecture", "AWS", "Functionality Specifications", "UI/UX", "Stakeholder Management", "Digital Public Infrastructure", "Digital Public Good"]
+    techStack: ["UNDP Digital 4 Planet", "Climate Tech", "Cloud Architecture", "AWS", "Functionality Specifications", "UI/UX", "Stakeholder Management", "Digital Public Infrastructure", "Digital Public Good", "Product Strategy"]
   },
   {
     id: 8,
-    title: "Digital Product Management",
+    title: "SDG Private Finance Platform Product and Project Management",
     description: "Product and Design Management for the SDG Investor Platform unlocking financing for the SDGs and the UNDP Sustainable Finance Hub.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f75edcd0d5daf21d2e028c_SDGInvestor-p-500.png",
     demoUrl: "https://sdgprivatefinance.undp.org/",
     githubUrl: "",
-    techStack: ["UNDP Sustainable Finance Hub", "Product Management", "Product Strategy", "UX Research", "Workshop Facilitation", "Project Management"]
+    techStack: ["UNDP Sustainable Finance Hub", "Product Management", "Product Strategy", "UX Research", "Workshop Facilitation", "Project Management", "Proposal Development", "Maintenance Strategy", "Azure Cloud"]
   },
   {
     id: 9,
-    title: "Digital Product Management",
+    title: "WP CMS & Upgrades Product and Project Management",
     description: "Website Product Management and Information Management System Solutions Delivery for the UNDP Conscious Food Systems.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f75e5bdaab805a9229e8fb_COFSA-p-800.png",
     demoUrl: "https://consciousfoodsystems.org/",
     githubUrl: "",
-    techStack: ["UNDP Conscious Food Systems", "Product Management", "Product Strategy", "Information Management", "Project Management"]
+    techStack: ["UNDP Conscious Food Systems", "Product Management", "Product Strategy", "Information Management", "Project Management", "Data Integrations", "Stakeholder Management"]
   },
   {
     id: 10,
-    title: "Digital Product Management",
+    title: "Digital Democracy Tool Product and Project Management",
     description: "Product Management for a Virtual Policy Platform for Participatory Policy Making in South-East Asia.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/663dd880c1afc0912971b096_Decidim_Cover-p-800.png",
     demoUrl: "",
     githubUrl: "",
-    techStack: ["Tech & Democracy", "Public Policy", "Product Management", "Product Strategy", "UX Research", "Project Management"]
+    techStack: ["Tech & Democracy", "Public Policy", "Product Management", "Product Strategy", "UX Research", "Project Management", "Stakeholder Management"]
   },
   {
     id: 11,
-    title: "Data Management System Build",
+    title: "Data Platform Build and Management",
     description: "Development for an internal Reporting and Data Management system.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/66433c26cbde38c5dc58dfe5_Funding_Windows_Reporting-p-500.png",
     demoUrl: "",
     githubUrl: "",
-    techStack: ["UNDP Funding Windows", "Data Management", "Data Analytics", "Project Management"]
+    techStack: ["UNDP Funding Windows", "Data Management", "Data Analytics", "Project Management", "Product Management", "Automation", "Data Collection", "Stakeholder Management"]
   },
   {
     id: 14,
-    title: "Electoral Conflict Reporting System",
+    title: "Digital Conflict Reporting Platform Tool Product and Project Management",
     description: "Product management for an system to identify and report electoral conflicts.",
     image: "/lovable-uploads/1e522141-0037-43d9-8a40-8d5080504c99.png",
-    demoUrl: "",
+    demoUrl: "https://www.undp.org/governance/ireport",
     githubUrl: "",
-    techStack: ["Democracy Tech", "Conflict Mapping", "Data Analysis", "Product Management", "Project Management"]
+    techStack: ["Democracy Tech", "Conflict Mapping", "Data Analysis", "Product Management", "Project Management", "UX Research", "Reporting", "Monitoring", "Functionality Specifications", "Integrations", "AWS Cloud"]
   },
   {
     id: 13,
@@ -118,7 +118,7 @@ const projects: Project[] = [
     image: "/lovable-uploads/6d1c91f0-a3fc-4d80-b1a0-14616177ca38.png",
     demoUrl: "https://www.undp.org/digital/productstudio",
     githubUrl: "",
-    techStack: ["Product Leadership", "Agile Development", "Design Thinking", "Product Strategy", "Project Management"]
+    techStack: ["Product Leadership", "Agile Development", "Design Thinking", "Product Strategy", "Project Management", "Proposal Development"]
   },
   {
     id: 15,
@@ -127,7 +127,7 @@ const projects: Project[] = [
     image: "/lovable-uploads/5006dddf-724c-4522-bf3c-93c65495ecdd.png",
     demoUrl: "https://ask.aihubfordevelopment.org/",
     githubUrl: "",
-    techStack: ["AI Hub", "Sustainable Development", "African Innovation", "Artificial Intelligence", "Project Management"]
+    techStack: ["AI Hub", "Sustainable Development", "African Innovation", "Artificial Intelligence", "Project Management", "AI Ecosystem", "Product Strategy", "Stakeholder Management", "UX Research"]
   },
   {
     id: 12,
