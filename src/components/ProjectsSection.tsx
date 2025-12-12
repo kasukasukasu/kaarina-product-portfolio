@@ -10,16 +10,16 @@ const projects: Project[] = [
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f61df653cdcc61b90a097e_logo%20ACN-p-500.png",
     demoUrl: "https://www.accenture.com/fi-en/about/technology-index",
     githubUrl: "",
-    techStack: ["Accenture", "Software Development"]
+    techStack: ["Accenture", "Software Development", "Kanban", "Agile Development", "Jira", "SDLC", "Front-End Development", "Back-End Development"]
   },
   {
     id: 2,
-    title: "Digital Product Management",
+    title: "Digital Solutions Sales, Consulting and CRM Development",
     description: "End-to-end Product Management of an Project, Finance, Recruitment and Monitoring Platform for International Development Projects.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f759aab0e037bb331e5b0d_NIRAS-p-800.png",
     demoUrl: "https://www.niras.com/sectors/development-consulting/",
     githubUrl: "",
-    techStack: ["NIRAS", "Product Management", "Product Strategy", "Project Management"]
+    techStack: ["NIRAS", "Digital Solutions Specialist", "Bid Development", "Functionality Development", "Agile", "Specifications", "Consulting", "Product Management", "Solution Engineering", "CRM Development"]
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const projects: Project[] = [
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f6ed5584038dee30a680b6_SmartME-p-500.png",
     demoUrl: "https://www.smartme.global/",
     githubUrl: "",
-    techStack: ["NIRAS", "Digital Sales x Solutions Delivery", "Product Strategy", "Project Management"]
+    techStack: ["NIRAS", "Digital Solutions Specialist", "Product Sales", "Product Configuration", "Product Consulting", "Product Support", "Product Training"]
   },
   {
     id: 4,
@@ -41,30 +41,30 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    title: "Digital Product Management",
+    title: "Drupal CMS & Report Digitalization",
     description: "Product Management for UNDP Accelerator Labs Web presence and the UNTAPPED collective intelligence for climate action report digitalization.",
     image: "/lovable-uploads/55452907-eda7-4224-9b7a-bfb6c42ee9a0.png",
     demoUrl: "https://www.undp.org/acceleratorlabs/our-work/untapped",
     githubUrl: "",
-    techStack: ["UNDP Accelerator Labs", "Product Management", "Product Strategy", "Project Management"]
+    techStack: ["UNDP Accelerator Labs", "UI/UX", "Drupal CMS"]
   },
   {
     id: 6,
-    title: "Digital Product Management",
+    title: "Digital Democracy Tools Project and Product Management",
     description: "Product Management for multiple digital tools to support democracy and information integrity, including iVerify and iReport.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f756b7f9ed005fb34ae23d_iVerify-p-500.png",
     demoUrl: "https://www.undp.org/digital/iverify",
     githubUrl: "",
-    techStack: ["UNDP Governance / Digital Democracy", "Product Management", "Product Strategy", "Project Management"]
+    techStack: ["UNDP Governance / Digital Democracy", "Information Integrity", "Human-in-the-loop Machine Learning", "Cloud Architecture", "AWS", "Functionality Specifications", "UI/UX", "Stakeholder Management", "Maintenance", "Integrations", "Digital Public Good"]
   },
   {
     id: 7,
-    title: "Digital Product Management",
+    title: "Climate Tech Product Management",
     description: "Product Management for open-source software ecosystems around the Paris Agreement, the UNDP Carbon Registry and the UNDP Transparency System.",
     image: "https://cdn.prod.website-files.com/65f5f702b76fe4658a6269b5/65f75c7802aea38a08e06bf9_CarbReg-p-500.png",
     demoUrl: "https://github.com/undp/undp-national-carbon-registry/",
     githubUrl: "",
-    techStack: ["UNDP Digital 4 Planet", "Product Management", "Product Strategy", "Project Management"]
+    techStack: ["UNDP Digital 4 Planet", "Climate Tech", "Cloud Architecture", "AWS", "Functionality Specifications", "UI/UX", "Stakeholder Management", "Digital Public Infrastructure", "Digital Public Good"]
   },
   {
     id: 8,
