@@ -149,7 +149,7 @@ const ProjectsSection = () => {
     : projects;
 
   return (
-    <section id="projects" className="py-32">
+    <section id="projects" className="py-32" aria-label="Projects">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Selected Technology References</h2>

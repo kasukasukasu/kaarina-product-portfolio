@@ -3,7 +3,7 @@ import { Linkedin, Github } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="min-h-screen flex items-center bg-background pt-32">
+    <section id="hero" className="min-h-screen flex items-center bg-background pt-32" aria-label="Introduction">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="max-w-3xl">
