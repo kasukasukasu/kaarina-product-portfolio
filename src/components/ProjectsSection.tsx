@@ -2,6 +2,7 @@
 import { useState } from "react";
 import ProjectCard, { Project } from "./ProjectCard";
 import fairImage from "@/assets/fair-finnish-ai-region.png";
+import datastepImage from "@/assets/datastep.png";
 
 const projects: Project[] = [
   {
@@ -152,7 +153,7 @@ const projects: Project[] = [
     id: 17,
     title: "Data Project Lead - DATASTEP – Growth from the data economy in Uusimaa",
     description: "Project Lead for DATASTEP – Growth from the data economy in Uusimaa. The project addresses challenges related to data availability and usability that small and medium-sized enterprises face when developing new business. In the project, companies are guided to a broad selection of national and European test infrastructures that enable the testing and development of data-driven solutions.",
-    image: "/placeholder.svg",
+    image: datastepImage,
     demoUrl: "https://testbed.hel.fi/en/new-technologies/datastep-growth-from-data-economy-in-uusimaa/",
     githubUrl: "",
     techStack: ["Data Economy", "Management", "Digital Innovation", "Data Project Leadership", "Data Economy Testing Environments", "Data Skills"]
