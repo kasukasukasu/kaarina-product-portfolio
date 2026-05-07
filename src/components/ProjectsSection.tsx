@@ -2,6 +2,7 @@
 import { useState } from "react";
 import ProjectCard, { Project } from "./ProjectCard";
 import fairImage from "@/assets/fair-finnish-ai-region.png";
+import datastepImage from "@/assets/datastep.png";
 
 const projects: Project[] = [
   {
