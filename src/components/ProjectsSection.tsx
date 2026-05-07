@@ -137,6 +137,15 @@ const projects: Project[] = [
     demoUrl: "",
     githubUrl: "",
     techStack: ["Product Leadership", "Generative AI & Prompt Engineering", "Data Integration & Knowledge Management", "UX Research & User Testing", "AI Governance & Quality Assurance", "Roadmap Planning & Stakeholder Management"]
+  },
+  {
+    id: 16,
+    title: "AI Project Lead - Finnish AI Region",
+    description: "Project Lead for Finnish AI Region EDIH (FAIR). FAIR European Digital Innovation Hub offering world-class expertise in artificial intelligence, cybersecurity, augmented reality and high-performance computing. FAIR connects solution providers with companies to accelerate AI innovation and strengthen Finnish competitiveness globally.",
+    image: "/placeholder.svg",
+    demoUrl: "",
+    githubUrl: "",
+    techStack: ["AI Adoption", "Business Development", "Project Management", "Digital Innovation", "AI Project Leadership", "EU Reporting", "Funder Relations", "Partnerships"]
   }
 ];
 
