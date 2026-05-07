@@ -144,9 +144,18 @@ const projects: Project[] = [
     title: "AI Project Lead - Finnish AI Region",
     description: "Project Lead for Finnish AI Region EDIH (FAIR). FAIR European Digital Innovation Hub offering world-class expertise in artificial intelligence, cybersecurity, augmented reality and high-performance computing. FAIR connects solution providers with companies to accelerate AI innovation and strengthen Finnish competitiveness globally.",
     image: fairImage,
-    demoUrl: "",
+    demoUrl: "https://www.fairedih.fi/",
     githubUrl: "",
     techStack: ["AI Adoption", "Business Development", "Project Management", "Digital Innovation", "AI Project Leadership", "EU Reporting", "Funder Relations", "Partnerships"]
+  },
+  {
+    id: 17,
+    title: "Data Project Lead - DATASTEP – Growth from the data economy in Uusimaa",
+    description: "Project Lead for DATASTEP – Growth from the data economy in Uusimaa. The project addresses challenges related to data availability and usability that small and medium-sized enterprises face when developing new business. In the project, companies are guided to a broad selection of national and European test infrastructures that enable the testing and development of data-driven solutions.",
+    image: "/placeholder.svg",
+    demoUrl: "https://testbed.hel.fi/en/new-technologies/datastep-growth-from-data-economy-in-uusimaa/",
+    githubUrl: "",
+    techStack: ["Data Economy", "Management", "Digital Innovation", "Data Project Leadership", "Data Economy Testing Environments", "Data Skills"]
   }
 ];
 
